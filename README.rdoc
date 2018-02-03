@@ -1,28 +1,13 @@
-== README
+Photo App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+What it has:
+1. Authentication system (sign-up, edit, log in/logout)
+2. Mail confirmation of new account. Mail API used is Sendgrid
+3. Users can upload images
+4. Uploaded images are stored in an Amazon S3 bucket, with the help of carrierwave and fog gems
+5. Basic image functionality (new, edit, index)
+6. Mobile friendly (responsive styling)
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+HEROKU link:
+https://rorphotoapp.herokuapp.com/
